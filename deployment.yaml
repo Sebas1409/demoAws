@@ -3,18 +3,18 @@ kind: Deployment
 metadata:
   name: pruebaangular
   labels:
-    app: lundero-devops
+    app: lundero-sebas
 spec:
   selector:
     matchLabels:
-      app: lundero-devops
+      app: lundero-sebas
   replicas: 3
   strategy:
     type: RollingUpdate
   template:
     metadata:
       labels:
-        app: lundero-devops
+        app: lundero-sebas
     spec:
       containers:
       - name: pruebaangular
