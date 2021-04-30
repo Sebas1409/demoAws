@@ -1,8 +1,8 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: appsebas
+  name: appdemo
 spec:
   backend:
-    serviceName: appsebas
+    serviceName: appdemo
     servicePort: 80
